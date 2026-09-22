@@ -1,0 +1,37 @@
+/* 清爽简约浅色主题：白底 + 青绿强调色 */
+:root {
+  --el-color-primary: #10b981;
+  --el-color-primary-light-3: #58cea7;
+  --el-color-primary-light-5: #88dcc0;
+  --el-color-primary-light-7: #b7ead9;
+  --el-color-primary-light-8: #cff1e6;
+  --el-color-primary-light-9: #e7f8f2;
+  --el-color-primary-dark-2: #0d9467;
+  --el-border-radius-base: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+  background: #f5f6f7;
+  color: #303133;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
